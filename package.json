@@ -1,21 +1,15 @@
 {
-  "name": "dbjsonserver",
+  "name": "bankingapp-mock-api",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sonika2223Kanojia/dbjsonserver.git"
+    "start" : "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Sonika2223Kanojia/dbjsonserver/issues"
-  },
-  "homepage": "https://github.com/Sonika2223Kanojia/dbjsonserver#readme"
+  "dependencies": {
+    "json-server": "^0.16.2"
+  }
 }
